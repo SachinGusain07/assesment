@@ -19,6 +19,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
+      "https://assesment-seven-azure.vercel.app",
     ],
     credentials: true,
   })
